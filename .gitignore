@@ -1,0 +1,16 @@
+# 原始数据和数据库文件体积很大，且受 Kaggle 比赛规则约束，不上传
+data/raw/*
+data/*.db
+data/*.sqlite
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
