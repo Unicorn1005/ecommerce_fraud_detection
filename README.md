@@ -78,6 +78,10 @@ ecommerce-fraud-detection/
 * 只有card 4 & 6 是分类型变量，分组有意义。其他card取值种类太多，分组后每组样本量过小，无意义。
 
 
+### 1.检查identity表中的transactionid是否都唯一
+<img width="246" height="66" alt="image" src="https://github.com/user-attachments/assets/3f1f7923-aaa7-4519-8486-729f022974de" />
+都是唯一的，没有问题
+
 ## 技术栈
 
 SQL（SQLite）· Python（pandas、scikit-learn、LightGBM、XGBoost、SHAP）· Tableau
